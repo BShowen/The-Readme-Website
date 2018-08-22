@@ -1,1 +1,1 @@
-I made this simple website as practice. I found a website called www.Readme.com and the website seemed easy to replicate. 
+I made this simple website as practice. I found a website called www.Readme.md and the website seemed easy to replicate. 
