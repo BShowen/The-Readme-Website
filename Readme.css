@@ -1,0 +1,122 @@
+* {margin:0; Padding:0; box-sizing: border-box; font-family: Basier Circle,Helvetica,Arial,sans-serif;}
+
+.top-wrapper {
+    width: 100%;
+    height: 437px;
+    background-color: rgb(17, 17, 17);
+    color: rgba(255, 255, 255, 1);
+}
+
+.content {
+    display: block;
+    text-align: center;
+    position: relative;
+    top: 15%;
+}
+
+.content p {
+    padding: 25px 0 25px 0 ;
+    font-size: 1em;
+    font-family: Consolas, monaco, monospace ;
+}
+
+
+.top-post {
+    display: block;
+    position: absolute;
+    right: 127px;
+    top: 24px;
+    height: 40px;
+    width: 170px;
+    text-align: center;
+    padding: 10px;
+    border: 1px solid rgba(235, 235, 235, 1);
+    border-radius: 5px;
+    background-color: rgba(235, 235, 235, 1);
+    color: rgba(0, 0, 0, 1);
+}
+
+.top-post:hover {
+    border: 1px solid rgba(235, 235, 235, 1);
+    background-color: rgb(17, 17, 17);
+    color: rgba(235, 235, 235, 1);
+}
+
+.link {
+    display: block;
+    position: absolute;
+    top: 24px;
+    left: 127px;
+    font-size: 1em;
+    color: rgba(235, 235, 235, 1);
+}
+
+.link:hover {
+    color: rgba(235, 235, 235, 0.50);
+}
+
+input[type="text"]{
+    width: 614px;
+    height: 48px;
+    border: 1px solid rgba(235, 235, 235, 1);
+    border-radius: 4px;
+    padding-left: 30px;
+    font-size: 17px;
+    font-weight: 400;
+    color: rgba(55, 64, 72, .70);
+    font-family: Basier Circle,Helvetica,Arial,sans-serif; ;
+}
+
+/*--This is the start of the bottom half--*/
+
+.bot-wrapper {
+    width: 100%;
+    Background-color: rgba(235, 235, 235, 1);
+    text-align: center;
+    height: 243px;
+}
+
+.listing {
+    Display: block;
+    width: 800px;
+    margin: 0 auto;
+    padding: 25px;
+}
+
+.bot-post {
+    display: block;
+    margin: 0 auto;
+    width: 172px; height: 43px;
+    padding: 12px 0 5px 0 ;
+    border: 1px solid rgb(17, 17, 17);
+    border-radius: 5px;
+    background-color: rgba(235, 235, 235, 1);
+    text-align: center;
+    color: rgb(17, 17, 17);
+}
+
+.bot-post:hover {
+    color: rgba(17, 17, 17, 0.50);
+    border: 1px solid rgba(17, 17, 17, 0.50);
+}
+
+
+.builder {
+    display: block;
+    position: absolute;
+    left: 129px;
+    bottom: 53px;
+    font-weight: 200;
+}
+
+.rss {
+    display: block;
+    position: absolute;
+    right: 129px;
+    bottom: 53px;
+}
+
+span {
+    font-weight: 500;
+    color: #384048;
+}
